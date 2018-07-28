@@ -29,8 +29,12 @@
 		<position>banner</position>
 		<position>debug</position>
 		<position>suche</position>
+		<position>logo</position>
+
+
 		<position>header-menu-button</position>
 		<position>spec-menu</position>
+		<position>content-header</position>
 		<position>position-0</position>
 		<position>position-1</position>
 		<position>position-2</position>

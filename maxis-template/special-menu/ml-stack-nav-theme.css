@@ -2,22 +2,14 @@
  * ml-stack-nav - v1.1.2
  * Customizable, accessible, easy-to-use multi-level stack navigation menu with slide effect.
  * https://github.com/damianwajer/ml-stack-nav
- * 
+ *
  * Author: Damian Wajer
  * License: MIT
- * 
+ *
  * @preserve
  */
 /* Example navigation theme. */
-body {
-  box-sizing: border-box;
-  padding: 50px 1em 1em;
-}
-body *,
-body *:after,
-body *:before {
-  box-sizing: inherit;
-}
+
 
 .header {
   position: fixed;
@@ -39,7 +31,6 @@ body *:before {
   top: 50px;
   right: 0;
   bottom: 0;
-  left: 0;
   height: auto;
   font-size: 16px;
 }
@@ -47,12 +38,16 @@ body *:before {
   background-color: #f9f9f9;
   list-style: none;
 }
-.ml-stack-nav__link {
+.ml-stack-nav__link, .ml-stack-nav__item-inner > a, .ml-stack-nav__item-inner > span {
   display: block;
-  padding: 0.5em 80px 0.5em 1.5em;
+  padding: 20px;
   border-bottom: 1px solid #000;
   color: #000;
   text-decoration: none;
+}
+
+.ml-stack-nav__item.parent.deeper > .ml-stack-nav__item-inner > span, .ml-stack-nav__item.default.deeper > .ml-stack-nav__item-inner > a {
+  margin-right: 70px;
 }
 .ml-stack-nav__link:focus, .ml-stack-nav__link:hover {
   opacity: 0.5;
@@ -93,5 +88,3 @@ body *:before {
 .is-open > .ml-stack-nav__menu {
   box-shadow: -5px 0 10px 0 rgba(0, 0, 0, 0.25);
 }
-
-/*# sourceMappingURL=ml-stack-nav-theme.css.map */

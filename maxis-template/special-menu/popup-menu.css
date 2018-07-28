@@ -1,0 +1,17 @@
+.ml-stack-nav__menu, .ml-stack-nav {
+    height: 0;
+    max-height: 500px;
+    transform: scaleY(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.ml-stack-nav.is-open > .ml-stack-nav__menu, .ml-stack-nav.is-open, .ml-stack-nav__item.is-open > .ml-stack-nav__menu  {
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+    transform: scaleY(1);
+    transform-origin: top;
+}
+
+.ml-stack-nav__menu.small{
+  font-size: 100%;
+}

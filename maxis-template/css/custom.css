@@ -1,0 +1,633 @@
+/** allgemein style **/
+
+
+
+ /* allgemein style - sidebar */
+
+ /* sidebar
+ .tm-sidebar-a.uk-width-medium-3-10.uk-pull-7-10 {
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+
+  .uk-nav-navbar .uk-nav-header {
+    color:#FFFFFF;
+    text-align:center;
+  }
+
+  .uk-nav.uk-nav-parent-icon.uk-nav-side > li {
+      border-bottom: 1px solid #fff;
+
+  }
+
+  .uk-nav-sub > li > a {
+      border-top: 1px solid #fff;
+      padding-left: 35px;
+  }
+
+
+
+  ul.uk-nav-sub {
+      padding: 2px 0 5px 0px!important;
+  }
+  .tm-sidebar-a.uk-width-medium-3-10.uk-pull-7-10 {
+
+  padding-left: 0;
+  border: 1px solid;
+  }
+
+  .uk-text-center.uk-margin-bottom-large.tm-block.tm-block-default {
+      background: #2274a5;
+  }
+
+  .uk-panel-box > .uk-nav-side > li > a:hover, .uk-nav-side > li.uk-active > a {
+      color: #fff !important;
+      background: #2274a5!important;
+
+  }
+
+  .uk-panel-title {
+      border-bottom: 1px solid;
+      margin-left: -35px;
+      padding-left: 35px;
+      margin-right: -35px;
+      padding-right: 35px;
+      margin-bottom: 0;
+  	padding-bottom: 25px;
+  }
+
+  .uk-nav.uk-nav-parent-icon.uk-nav-side {
+      background: #a9a9a9;
+  }
+  .uk-nav-sub > .uk-active,.table-striped tbody > tr:nth-child(2n+1) > td, .table-striped tbody > tr:nth-child(2n+1) > th, div.modal {
+      background: #2274a5!important;
+  }
+  .uk-panel.uk-panel-box.jmoddiv {
+
+       border:none;
+  }
+
+
+
+
+  .uk-panel-box > .uk-nav-side > li.uk-active > a {
+      color: #fff!important;
+  }
+
+  .uk-nav.uk-nav-parent-icon.uk-nav-side > li > a {
+      font-weight: bold;
+  }
+
+  .badge {
+
+      color: #fff;
+
+  }
+
+
+  .tm-sidebar-a> .uk-panel {
+      border: none!important;
+  }
+
+  .uk-nav-sub > li {
+      text-align: left;
+  }
+
+  .uk-parent > ul > li {
+     margin-left: 30px;
+ }
+
+ .uk-nav-sub > li > a {
+     padding-right: 35px;
+ }
+
+ .uk-parent.uk-active > ul > li > a {
+
+    color: #fff !important;
+
+}
+
+ .uk-nav-sub > .uk-parent > a::after {
+   content: "\f107";
+   width: 26px;
+   margin-right: -10px;
+   float: right;
+   font-family: FontAwesome;
+   text-align: center;
+ }
+
+ **/
+
+
+ /* allgemein style - footer */
+
+
+ .uk-text-center.uk-margin-bottom-large.tm-block.tm-block-default {
+     bottom: 0;
+     position: fixed;
+     width: 100%;
+     z-index: 100;
+
+ }
+
+
+ /* allgemein style - main content */
+
+
+
+
+ /* allgemein style - navbar SUCHE */
+
+
+
+/*  alarmmeldungen **/
+
+.uk-button-primary:hover, .uk-button-primary:focus , .uk-alert-success, .uk-alert-danger {
+
+    color: #fff!important;
+
+}
+
+
+/* htmm form **/
+
+legend {
+  border-bottom: unset;
+}
+
+.fabrikWindow {
+	min-height:280px!important;
+}
+li.uk-parent > a > form.uk-form > div.uk-form-row:nth-child(2) {
+    display: none;
+}
+.row-fluid.fabrik_select.fabrik_element {
+	display:none;
+}
+
+#form_27 > .row-fluid.nav {
+display:none;
+visibility:hidden;
+}
+
+
+#group167 > .fabrikSubGroup {
+    display: block;
+    float: left;
+    width: 250px;
+}
+.draggable {
+    background: #3399ff none repeat scroll 0 0;
+    color: #3399ff;
+    cursor: move;
+    line-height: 40px!important;
+}
+.modal-header {
+
+    padding: 0;
+}
+
+.closeFabWin, .icon-full-screen {
+    color: #fff;
+}
+.row-striped .row-fluid {
+    width: 100%!important;
+}
+
+.fabrik_groupdata .row-fluid {
+    display: flex!important;
+}
+
+/* schrift **/
+
+.row-fluid > * > h2 {
+    font-size: 19px;
+    line-height: 25px;
+    margin:0;
+}
+
+.row-fluid > * > h3 {
+    font-size: 18px;
+    line-height: 24px;
+    margin:0;
+}
+
+/***** htmm details *******/
+
+/* htmm details - allgemein **/
+
+
+.fb_el_how_to_make_money___geforderte_skills > div > div > a, .fb_el_how_to_make_money___geforderte_skills > div > div > a:focus {
+    color: #fff;
+}
+
+
+  /* htmm details - einleitung **/
+
+
+
+  .htmm-details-user {
+    font-size: 13px;
+  }
+
+
+
+
+  .htmm-details >* {
+      color: #000!important;
+      }
+
+
+
+
+.htmm-details-scroller::after {
+    content: '\f063';
+    text-decoration: none !important;
+    font-family: 'FontAwesome';
+    font-size: xx-large;
+    color: #000000;
+}
+
+.htmm-details-scroller-white::after {
+    content: '\f063';
+    text-decoration: none !important;
+    font-family: 'FontAwesome';
+    color: #fff;
+    font-size: xx-large;
+}
+
+.htmm-details-index {
+text-align: center;
+max-width:190px;
+margin:auto;
+}
+
+.htmm-details-index > li > h4 {
+  margin-bottom: 15px;
+}
+
+
+/* htmm details - allgemein **/
+
+.row-striped .row-fluid {
+    border-bottom: unset;
+}
+
+#group21 > .legend, #group25 > .legend, #group8 > .legend, #group23 > .legend, #group37 > .legend  {
+    padding-bottom: 35px;
+    padding-top: 65px;
+    margin: 0;
+}
+
+
+#group25,#group8, #group21, #group23, #group37 {
+    margin: 0;
+
+}
+
+
+
+#group21 > .legend,
+#group23 > .legend,
+#group25 > .legend  {
+  color:#fff;
+}
+
+
+
+#group8 {
+    background: #e4e4e4;
+    color: #000;
+
+    }
+
+@media only screen and (max-width: 768px) {
+  #group25,#group8, #group21, #group23 {
+      margin: 0 -25px 0 -25px;
+  }
+}
+
+placeholder {
+    background: cornflowerblue;
+    color: #fff;
+    }
+
+placeholder {
+  background: darkslateblue;
+  color: #fff;
+}
+
+
+
+placeholder {
+    background: lightseagreen;
+    color: #fff;
+    }
+
+#group21, #group23, #group25 {
+    background: #2274a5;
+        color: #fff;
+    }
+
+
+
+/* htmm-details - vor und nachteile */
+
+#how_to_make_money___vor_und_nachteile_ro  > ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+ }
+
+ #how_to_make_money___vor_und_nachteile_ro  > ul > li {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  max-width: 350px;
+}
+
+@media only screen and (min-width: 600px) {
+ #how_to_make_money___vor_und_nachteile_ro  > ul {
+    -moz-column-count: 2;
+    -moz-column-gap: 15px;
+}
+}
+
+@media only screen and (min-width: 760px) {
+ #how_to_make_money___vor_und_nachteile_ro  > ul {
+    -moz-column-count: 3;
+    -moz-column-gap: 25px;
+}
+}
+
+@media only screen and (min-width: 1000px) {
+ #how_to_make_money___vor_und_nachteile_ro  > ul {
+    -moz-column-count: 4;
+    -moz-column-gap: 35px;
+}
+}
+
+
+
+
+
+
+
+.vornachteil-titel {
+
+    border-bottom: 1px solid;
+
+}
+
+.vornachteil {
+
+}
+.vornachteil-text {
+  color:#fff;
+  margin-bottom: 15px;
+}
+
+.vornachteil-titel {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.Vorteil{
+color: lightseagreen!important;
+font-size: large;
+}
+
+.Nachteil {
+color: crimson!important;
+font-size: large;
+}
+
+.neutral {
+background: darkgrey!important;
+color: #fff;
+border-color: darkgrey!important;
+font-size: large;
+}
+
+.noch.keine.bekannt {
+background: cornflowerblue!important;
+color: #fff;
+border-color: cornflowerblue!important;
+}
+
+/****  htmm details - wertungen ***/
+.wertung-container > p {
+    margin: 0 0 2px 0;
+}
+
+
+.wertung-bar {
+  width: 100%;
+  background-color: #ddd;
+  margin-bottom: 25px;
+}
+
+.wertungen {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 40px;
+  color: white;
+}
+
+#how_to_make_money___wertungen_display_ro {
+    max-width: 500px;
+    margin: auto;
+}
+
+.wertung-10 {width: 100%; background-color: seagreen;}
+.wertung-9 {width: 90%; background-color: seagreen;}
+.wertung-8 {width: 80%; background-color: cornflowerblue;}
+.wertung-7 {width: 70%; background-color: cornflowerblue;}
+.wertung-6 {width: 60%; background-color: cornflowerblue;}
+.wertung-5 {width: 50%; background-color: grey;}
+.wertung-4 {width: 40%; background-color: orange;}
+.wertung-3 {width: 30%; background-color: orange;}
+.wertung-2 {width: 20%; background-color: red;}
+.wertung-1 {width: 10%; background-color: red;}
+
+.wertung-1-od {width: 10%; background-color: seagreen;}
+ .wertung-2-od {width: 20%; background-color: seagreen;}
+ .wertung-3-od {width: 30%; background-color: cornflowerblue;}
+ .wertung-4-od {width: 40%; background-color: cornflowerblue;}
+.wertung-5-od {width: 50%; background-color: cornflowerblue;}
+.wertung-6-od {width: 60%; background-color: grey;}
+ .wertung-7-od {width: 70%; background-color: orange;}
+ .wertung-8-od {width: 80%; background-color: orange;}
+ .wertung-9-od {width: 90%; background-color: red;}
+ .wertung-10-od {width: 100%; background-color: red;}
+
+/** details skills **/
+
+.geforderte-skills {
+color: #fff;
+}
+
+
+/* htmm liste **/
+
+
+
+.addbutton.addRecord:hover {
+    color: #fff;
+}
+
+.htmm-list-left-titel {
+    text-align: center;
+}
+
+.htmm-list.htmm-list-right {
+    float: right;
+    height: auto;
+    width: auto;
+    margin-right: unset;
+    display: none;
+    visibility: hidden;
+}
+
+.htmm-list-right-vornachteile {
+    background: lightseagreen!important;
+  }
+
+.htmm-list-right-wertungen {
+    padding:2px;
+
+
+}
+
+.htmm-list.htmm-list-left {
+    width: 100%;
+    float: left;
+    margin-top: 25px;
+}
+.htmm-list {
+    display: block;
+}
+
+.row-fluid.how_to_make_money___listview.fabrik_element.fabrik_list_1_group_1 > .fabrik___rowlink {
+    width: 100%;
+}
+
+
+/**
+
+.htmm-list-wertung-odd-1, .htmm-list-wertung-odd-1:hover, .htmm-list-wertung-5, .htmm-list-wertung-5:hover  {
+    background: seagreen!important;
+    color: #fff!important;
+    border-color: seagreen!important;
+}
+
+
+.htmm-list-wertung-odd-2, .htmm-list-wertung-odd-2:hover, .htmm-list-wertung-4, .htmm-list-wertung-4:hover  {
+
+
+    background: cornflowerblue!important;
+    color: #fff!important;
+    border-color: cornflowerblue!important;
+}
+
+.htmm-list-wertung-odd-3, .htmm-list-wertung-odd-3:hover, .htmm-list-wertung-odd-5, .htmm-list-wertung-odd-5:hover, .htmm-list-wertung-3, .htmm-list-wertung-3:hover  {
+  background: grey!important;
+  color: #fff!important;
+  border-color: grey!important;
+
+}
+
+.htmm-list-wertung-odd-4, .htmm-list-wertung-odd-4:hover, .htmm-list-wertung-odd-5, .htmm-list-wertung-odd-5:hover, .htmm-list-wertung-odd-5, .htmm-list-wertung-odd-5:hover, .htmm-list-wertung-2, .htmm-list-wertung-2:hover  {
+  background: orange!important;
+  color: #fff!important;
+  border-color: orange!important;
+}
+
+.htmm-list-wertung-0, .htmm-list-wertung-0:hover, .htmm-list-wertung-odd-0, .htmm-list-wertung-odd-0:hover, .htmm-list-wertung-odd-5, .htmm-list-wertung-odd-5:hover, .htmm-list-wertung-1, .htmm-list-wertung-1:hover  {
+    background: red!important;
+    color: #fff!important;
+    border-color: red!important;
+}
+
+**/
+
+
+.htmm-list-wertung-odd-1 > span, .htmm-list-wertung-odd-1:hover > span, .htmm-list-wertung-5 > span, .htmm-list-wertung-5:hover > span {
+    background: seagreen!important;
+    color: #fff!important;
+    border-color: seagreen!important;
+    height:100%;
+
+}
+
+
+.htmm-list-wertung-odd-2 > span, .htmm-list-wertung-odd-2:hover > span, .htmm-list-wertung-4 > span .htmm-list-wertung-4:hover  > span {
+
+
+    background: cornflowerblue!important;
+    color: #fff!important;
+    border-color: cornflowerblue!important;
+    height:100%;
+
+}
+
+.htmm-list-wertung-odd-3 > span, .htmm-list-wertung-odd-3:hover > span, .htmm-list-wertung-odd-5 > span, .htmm-list-wertung-odd-5:hover > span, .htmm-list-wertung-3 > span, .htmm-list-wertung-3:hover  > span {
+  background: grey!important;
+  color: #fff!important;
+  border-color: grey!important;
+  height:100%;
+}
+
+.htmm-list-wertung-odd-4 > span, .htmm-list-wertung-odd-4:hover > span, .htmm-list-wertung-odd-5 > span, .htmm-list-wertung-odd-5:hover > span, .htmm-list-wertung-odd-5 > span, .htmm-list-wertung-odd-5:hover > span, .htmm-list-wertung-2 > span, .htmm-list-wertung-2:hover > span  {
+  background: orange!important;
+  color: #fff!important;
+  border-color: orange!important;
+  height:100%;
+}
+
+.htmm-list-wertung-0 > span, .htmm-list-wertung-0:hover > span, .htmm-list-wertung-odd-0 > span, .htmm-list-wertung-odd-0:hover > span, .htmm-list-wertung-odd-5 > span, .htmm-list-wertung-odd-5:hover > span, .htmm-list-wertung-1 > span, .htmm-list-wertung-1:hover > span  {
+    background: red!important;
+    color: #fff!important;
+    border-color: red!important;
+    height:100%;
+}
+
+.htmm-list-wertung > span {
+    position: relative;
+    display: block;
+    height: 100%;
+}
+
+.htmm-list-wertung {
+    height: 30px;
+    line-height: -moz-block-height;
+    padding-bottom: 2px;
+    text-align: center;
+}
+
+
+.htmm-list-right-titel {
+  padding: 6px;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1130px) {
+  .htmm-list.htmm-list-left {
+    width: 100%;
+}
+.htmm-list.htmm-list-right {
+    float: left;
+    width: 100%;
+}
+}

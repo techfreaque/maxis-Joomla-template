@@ -18,19 +18,10 @@ if ($tagId = $params->get('tag_id', ''))
 
 // The menu class is deprecated. Use nav instead
 ?>
-<style>
-.divider.parent > div > button {
-
-    width: 100%;
-    background: transparent;
-
-}
-</style>
-<nav id="ml-stack-nav-1" class="ml-stack-nav js-ml-stack-nav" aria-expanded="false" style="z-index:-1; visibility: hidden;">
-<ul class="ml-stack-nav__menu <?php echo $class_sfx; ?>"<?php echo $id; ?>>
+<div class=" <?php echo $class_sfx; ?>"<?php echo $id; ?>>
 <?php foreach ($list as $i => &$item)
 {
-	$class = 'ml-stack-nav__item item-' . $item->id;
+	$class = ' item-' . $item->id;
 
 	if ($item->id == $default_id)
 	{
@@ -72,17 +63,13 @@ if ($tagId = $params->get('tag_id', ''))
 
 	if ($item->parent)
 	{
-		$class .= ' parent';
+		$class .= ' parent dropdown';
 	}
 
-	echo '<li class="' . $class . '">';
+	echo '<li class="header-menu-item ' . $class . '">';
 
-	echo '<div class="ml-stack-nav__item-inner">';
 
-	if ($item->deeper)
-	{
-	echo '<button class="ml-stack-nav__next js-ml-stack-nav-next" type="button" title="Go to the next level">→</button>';
-	}
+
 
 
 	switch ($item->type) :
@@ -90,25 +77,23 @@ if ($tagId = $params->get('tag_id', ''))
 		case 'component':
 		case 'heading':
 		case 'url':
-			require JModuleHelper::getLayoutPath('mod_menu', 'specmenu_' . $item->type);
+			require JModuleHelper::getLayoutPath('mod_menu', 'headermenu_' . $item->type);
 			break;
 
 		default:
-			require JModuleHelper::getLayoutPath('mod_menu', 'specmenu_url');
+			require JModuleHelper::getLayoutPath('mod_menu', 'headermenu_url');
 			break;
 	endswitch;
 
 
 
-	echo "</div>";
+
 
 	// The next item is deeper.
 	if ($item->deeper)
 	{
-		echo '<ul class="ml-stack-nav__menu nav-child unstyled small">';
-		echo '<li class="ml-stack-nav__item">
-                    <button class="ml-stack-nav__back js-ml-stack-nav-back" type="button" title="Go to the previous level">← Back</button>
-                </li>';
+		echo '<ul class="header-menu-dropdown dropdown-menu nav-child unstyled small">';
+
 	}
 	// The next item is shallower.
 	elseif ($item->shallower)
@@ -123,7 +108,4 @@ if ($tagId = $params->get('tag_id', ''))
 		echo '</li>';
 	}
 }
-?></ul></nav>
-<script>
-    $(".js-ml-stack-nav").mlStackNav();
-</script>
+?></div>
